@@ -1,8 +1,8 @@
 <?php
-$hostname = 'localhost';
-$username = 'human';
-$password = 'humanpx123';
-$database = 'human';
+$hostname = '51.81.174.84';
+$username = 'proxy';
+$password = 'ibrtczW8ZMK4ePKF';
+$database = 'proxy';
 
 try {
     if(!empty($hostname) && !empty($database) && !empty($username)) {
