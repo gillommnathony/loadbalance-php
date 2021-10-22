@@ -1,7 +1,7 @@
 <?php
 // BASE_URL, format: string, example: 'http://mywebdomain.com/'
 // adjust to your website homepage address (slash sign at the end)
-define('BASE_URL', 'https://cdbpj.herokuapp.com//');
+define('BASE_URL', 'https://cdbpj.herokuapp.com/');
 
 // BASE_DIR, format: string, example: '/home/user/public_html/'
 // adjust to your website directory (slash sign at the end)
