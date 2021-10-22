@@ -1,0 +1,97 @@
+*   Trying 172.217.17.74:443...
+* Connected to www.googleapis.com () port 443 (#0)
+* ALPN, offering http/1.1
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-ECDSA-AES128-GCM-SHA256
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: C=US; ST=California; L=Mountain View; O=Google LLC; CN=upload.video.google.com
+*  start date: Jun  7 03:16:10 2021 GMT
+*  expire date: Aug 30 03:16:09 2021 GMT
+*  issuer: C=US; O=Google Trust Services; CN=GTS CA 1O1
+*  SSL certificate verify ok.
+> GET /drive/v3/files/0BwHxX3yoJoeuYzZlNm1jYVhwWWs?alt=media&source=downloadUrl&key=AIzaSyATjR8DbYGha0Z2U84gPVT0dxROp7UdWy8 HTTP/1.1
+Host: www.googleapis.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36
+authorization: Bearer ya29.a0ARrdaM_ZHc9mlQwxVpXj9ZgJsfq79cEasUUkfDSZ_mkHYlLCyciVMEzicXLT_kR2EblCwf32WFGTEfLUsksjb4IbqLL18wuVq_P5fYSuoZpw5658iSfYzztSMGCTr2PjQScGCy5tgx69dJY80RteZck3XuigblA
+Accept: */*
+Accept-Encoding: identity;q=1, *;q=0
+Accept-Language: id,id-ID;q=0.9,en;q=0.8
+Cache-Control: no-cache
+Connection: keep-alive
+Referer: https://drive.google.com/file/d/0BwHxX3yoJoeuYzZlNm1jYVhwWWs/view
+Origin: https://drive.google.com
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< X-GUploader-UploadID: ADPycdullUo0hGd3bua61r15rJ3aHUvkMOxaXzLP4kwvNIsniimbb5MZraQEMa9YtILE5F8cI45puC5r6Xu4J66iyKg
+< Content-Type: video/mp4
+< Access-Control-Allow-Credentials: true
+< Access-Control-Allow-Origin: https://drive.google.com
+< Content-Disposition: attachment
+< Vary: Origin
+< Vary: X-Origin
+< Access-Control-Expose-Headers: Content-Disposition, Content-Length, Date, Server, Transfer-Encoding, Vary, X-GUploader-UploadID, X-Google-Trace
+< Expires: Mon, 05 Jul 2021 19:17:09 GMT
+< Date: Mon, 05 Jul 2021 19:17:09 GMT
+< Cache-Control: private, max-age=0, must-revalidate
+< Content-Length: 11178131
+< X-Goog-Hash: crc32c=V7uMZg==
+< Server: UploadServer
+< Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+< 
+* Excess found: excess = 520 url = /drive/v3/files/0BwHxX3yoJoeuYzZlNm1jYVhwWWs (zero-length body)
+* Closing connection 0
+* Hostname www.googleapis.com was found in DNS cache
+*   Trying 172.217.17.74:443...
+* Connected to www.googleapis.com () port 443 (#1)
+* ALPN, offering http/1.1
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* SSL re-using session ID
+* SSL connection using TLSv1.2 / ECDHE-ECDSA-AES128-GCM-SHA256
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: C=US; ST=California; L=Mountain View; O=Google LLC; CN=upload.video.google.com
+*  start date: Jun  7 03:16:10 2021 GMT
+*  expire date: Aug 30 03:16:09 2021 GMT
+*  issuer: C=US; O=Google Trust Services; CN=GTS CA 1O1
+*  SSL certificate verify ok.
+> GET /drive/v3/files/0BwHxX3yoJoeuYzZlNm1jYVhwWWs?alt=media&source=downloadUrl&key=AIzaSyATjR8DbYGha0Z2U84gPVT0dxROp7UdWy8 HTTP/1.1
+Host: www.googleapis.com
+Range: bytes=0-11178130
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36
+authorization: Bearer ya29.a0ARrdaM_ZHc9mlQwxVpXj9ZgJsfq79cEasUUkfDSZ_mkHYlLCyciVMEzicXLT_kR2EblCwf32WFGTEfLUsksjb4IbqLL18wuVq_P5fYSuoZpw5658iSfYzztSMGCTr2PjQScGCy5tgx69dJY80RteZck3XuigblA
+Accept: */*
+Accept-Encoding: identity;q=1, *;q=0
+Accept-Language: id,id-ID;q=0.9,en;q=0.8
+Cache-Control: no-cache
+Connection: keep-alive
+Referer: https://drive.google.com/file/d/0BwHxX3yoJoeuYzZlNm1jYVhwWWs/view
+Origin: https://drive.google.com
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 206 Partial Content
+< X-GUploader-UploadID: ADPycdthaC6rIUJAxAD7ISEKqtjMYy4pxHINb0Zzz0U3-XIksBEra7MXGRA0g8mDzkW4VSpiV5jM7OmN6XpsJFNu32EyxNR_ng
+< Content-Type: video/mp4
+< Access-Control-Allow-Credentials: true
+< Access-Control-Allow-Origin: https://drive.google.com
+< Content-Disposition: attachment
+< Vary: Origin
+< Vary: X-Origin
+< Access-Control-Expose-Headers: Content-Disposition, Content-Length, Date, Server, Transfer-Encoding, Vary, X-GUploader-UploadID, X-Google-Trace
+< Expires: Mon, 05 Jul 2021 19:17:10 GMT
+< Date: Mon, 05 Jul 2021 19:17:10 GMT
+< Cache-Control: private, max-age=0, must-revalidate
+< Content-Range: bytes 0-11178130/11178131
+< Content-Length: 11178131
+< X-Goog-Hash: crc32c=V7uMZg==
+< Server: UploadServer
+< Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+< 
+* Closing connection 1

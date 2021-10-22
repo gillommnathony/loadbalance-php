@@ -1,0 +1,64 @@
+:root{--bg-red:#E50914;--bg-white:#F7F7F7;--bg-black:#222222}
+.jwplayer.jw-skin-netflix.jw-state-complete .jw-controls,.jwplayer.jw-skin-netflix.jw-state-idle .jw-controls{background:rgba(0,0,0,.7)}
+.jwplayer.jw-skin-netflix.jw-state-idle .jw-display-controls .jw-display-icon-container{color:var(--bg-red);background:0 0;margin-bottom:150px;border-radius:50%;width:100px;height:100px;animation-name:scaling;-webkit-animation-name:scaling;animation-duration:.6s;-webkit-animation-duration:.6s;animation-timing-function:linear;-webkit-animation-timing-function:linear;animation-iteration-count:infinite;-webkit-animation-iteration-count:infinite;animation-direction:alternate;-webkit-animation-direction:alternate}
+.jwplayer.jw-skin-netflix.jw-state-idle .jw-display-controls .jw-display-icon-container .jw-icon{color:#1e1e1e;width:60px;height:60px;padding:20px}
+.jwplayer.jw-skin-netflix.jw-state-idle .jw-display-controls .jw-display-icon-container{margin-bottom:-2.5rem;background-color:rgba(0,0,0,.4);border:solid .125rem var(--bg-white);height:75px;width:75px}
+.jwplayer.jw-skin-netflix.jw-state-idle:hover .jw-display-controls .jw-display-icon-container{background-color:rgba(0,0,0,.5)}
+.jwplayer.jw-skin-netflix.jw-state-idle .jw-display-controls .jw-display-icon-container .jw-icon{color:var(--bg-red);height:50px;width:50px;padding:12px}
+.jwplayer.jw-skin-netflix.jw-state-idle .jw-display-controls .jw-display-icon-container:hover{background-color:rgba(0,0,0,.4)}
+.jwplayer.jw-skin-netflix.jw-state-idle .jw-display-controls .jw-display-icon-container .jw-icon:hover{color:var(--bg-red)}
+.jwplayer.jw-skin-netflix.jw-state-idle .jw-display{height:50%}
+.jwplayer.jw-skin-netflix.jw-state-idle .jw-display-container{vertical-align:bottom}
+.jwplayer.jw-skin-netflix .jw-display-controls .jw-display-icon-container .jw-icon:hover{color:var(--bg-red)}
+.jwplayer.jw-skin-netflix.jw-state-paused .jw-controls{background-color:rgba(0,0,0,.1)}
+.jwplayer.jw-skin-netflix .jw-preview{width:calc(100% + 50px);background-size:calc(100% + 60px);transition:opacity .35s,transform .35s;transform:translate3d(-40px,0,0)}
+.jwplayer.jw-skin-netflix:hover .jw-preview{transform:translate3d(0,0,0)}
+.jwplayer.jw-skin-netflix.jw-state-complete:hover .jw-preview{transform:translate3d(-40px,0,0)}
+.jwplayer.jw-skin-netflix .jw-display{padding-bottom:45px}
+.jwplayer.jw-skin-netflix .jw-controls::after{background:0 0}
+.jwplayer.jw-skin-netflix .jw-controlbar .jw-button-container .jw-button-color{color:var(--bg-white)}
+.jwplayer.jw-skin-netflix.jw-state-paused .jw-controlbar .jw-button-container .jw-button-color{color:var(--bg-white)}
+.jwplayer.jw-skin-netflix .jw-controlbar .jw-button-container .jw-button-color:hover{color:var(--bg-red)}
+.jwplayer.jw-skin-netflix .jw-controlbar .jw-tooltip{bottom:90%;box-shadow:none!important}
+.jwplayer.jw-skin-netflix .jw-controlbar .jw-tooltip.jw-open{border-radius:3px;color:var(--bg-black)}
+.jwplayer.jw-skin-netflix .jw-controlbar .jw-tooltip .jw-text{background-color:VAR(--bg-black);border-radius:3px;border:0}
+.jwplayer.jw-skin-netflix .jw-controlbar .jw-text{color:var(--bg-white)}
+.jwplayer.jw-skin-netflix .jw-time-tip .jw-text{color:var(--bg-black)}
+.jwplayer.jw-skin-netflix .jw-volume-tip{margin-bottom:-40px}
+.jwplayer.jw-skin-netflix .jw-settings-topbar-buttons .jw-tooltip-captions,.jwplayer.jw-skin-netflix .jw-settings-topbar-buttons .jw-tooltip-quality{color:var(--bg-black)}
+.jwplayer.jw-skin-netflix .jw-settings-topbar-buttons .jw-tooltip-captions .jw-text,.jwplayer.jw-skin-netflix .jw-settings-topbar-buttons .jw-tooltip-quality .jw-text,.jwplayer.jw-skin-netflix .jw-time-tip .jw-reset{border-radius:3px;background-color:var(--bg-black);color:var(--bg-white)}
+.jwplayer.jw-skin-netflix .jw-time-tip{color:var(--bg-black)}
+.jwplayer.jw-skin-netflix .jw-overlay .jw-slider-volume .jw-slider-container .jw-knob{background-color:var(--bg-red)}
+.jwplayer.jw-skin-netflix .jw-overlay .jw-slider-volume .jw-slider-container .jw-buffer,.jwplayer.jw-skin-netflix .jw-overlay .jw-slider-volume .jw-slider-container .jw-rail{background-color:var(--bg-black);width:.2rem}
+.jwplayer.jw-skin-netflix .jw-overlay .jw-slider-volume .jw-slider-container .jw-progress{background-color:var(--bg-red);width:.2rem}
+.jwplayer.jw-skin-netflix .jw-controlbar .jw-slider-time{padding:0 24px}
+.jwplayer.jw-skin-netflix.jw-breakpoint-7 .jw-controlbar .jw-slider-time{padding:0 64px}
+.jwplayer.jw-skin-netflix .jw-controlbar .jw-slider-time .jw-slider-container .jw-rail{background-color:var(--bg-black)}
+.jwplayer.jw-skin-netflix .jw-controlbar .jw-slider-time .jw-slider-container .jw-buffer{background-color:#404040}
+.jwplayer.jw-skin-netflix .jw-controlbar .jw-slider-time .jw-slider-container .jw-knob,.jwplayer.jw-skin-netflix .jw-controlbar .jw-slider-time .jw-slider-container .jw-progress{background-color:var(--bg-red)}
+.jwplayer.jw-skin-netflix .jw-settings-menu{background-color:var(--bg-black);border-radius:3px;max-width:284px;max-height:15rem}
+.jwplayer.jw-skin-netflix .jw-settings-menu .jw-settings-topbar .jw-icon:hover{color:var(--bg-red)}
+.jwplayer.jw-skin-netflix .jw-settings-menu .jw-settings-content-item:hover,.jwplayer.jw-skin-netflix .jw-settings-menu .jw-settings-item-active{color:var(--bg-red)}
+.jwplayer.jw-skin-netflix.jw-breakpoint-0 .jw-volume-tip,.jwplayer.jw-skin-netflix.jw-breakpoint-1 .jw-volume-tip,.jwplayer.jw-skin-netflix.jw-breakpoint-2 .jw-volume-tip,.jwplayer.jw-skin-netflix.jw-breakpoint-3 .jw-volume-tip,.jwplayer.jw-skin-netflix.jw-breakpoint-4 .jw-volume-tip,.jwplayer.jw-skin-netflix.jw-breakpoint-5 .jw-volume-tip,.jwplayer.jw-skin-netflix.jw-breakpoint-6 .jw-volume-tip{margin-bottom:-20px}
+@keyframes scaling{
+From{transform:scale(1);-webkit-transform:scale(1)}
+To{ransform:scale(1.1);-webkit-transform:scale(1.1)}
+}
+@-webkit-keyframes scaling{
+From{transform:scale(1);-webkit-transform:scale(1)}
+To{ransform:scale(1.1);-webkit-transform:scale(1.1)}
+}
+.jwplayer.jw-skin-netflix .jw-controlbar .jw-icon.jw-button-color:hover .jw-svg-icon,.jwplayer.jw-skin-netflix .jw-icon-inline[aria-expanded=true],.jwplayer.jw-skin-netflix .jw-option.jw-active-option,.jwplayer.jw-skin-netflix .jw-settings-item-active,.jwplayer.jw-skin-netflix .jw-settings-open .jw-icon-settings,.jwplayer.jw-skin-netflix .jw-sharing-copy:active,.jwplayer.jw-skin-netflix .jw-sharing-copy:focus,.jwplayer.jw-skin-netflix .jw-sharing-link:active,.jwplayer.jw-skin-netflix .jw-sharing-link:focus,.jwplayer.jw-skin-netflix :not(.jw-flag-touch) .jw-button-color:not(.jw-logo-button):hover{fill:var(--bg-red);color:var(--bg-red);background-color:transparent}
+.jw-button-color:hover .jw-svg-icon{-webkit-transform:scale(1.1);-ms-transform:scale(1.1);-o-transform:scale(1.1);transform:scale(1.1);-webkit-transition:opacity,-webkit-transform .2s ease-out;transition:opacity,-webkit-transform .2s ease-out;-o-transition:opacity,-o-transform .2s ease-out;transition:opacity,transform .2s ease-out;transition:opacity,transform .2s ease-out,-webkit-transform .2s ease-out,-o-transform .2s ease-out}
+.jwplayer.jw-skin-netflix .jw-knob,.jwplayer.jw-skin-netflix .jw-progress,.lds-ellipsis div{background:var(--bg-red)!important}
+.jwplayer.jw-skin-netflix .jw-controlbar .jw-text-duration,.jwplayer.jw-skin-netflix .jw-controlbar .jw-text-elapsed{font-size:.8rem}
+@media screen and (min-width:768px){
+.jwplayer.jw-skin-netflix .jw-controlbar .jw-text-duration,.jwplayer.jw-skin-netflix .jw-controlbar .jw-text-elapsed{font-size:1rem}
+}
+.jwplayer.jw-skin-netflix .jw-controlbar .jw-text-elapsed{margin-right:16px}
+.jwplayer.jw-skin-netflix .jw-controlbar .jw-text-duration{margin-left:16px}
+.jwplayer.jw-skin-netflix .jw-controlbar .jw-text-duration:before{display:none!important}
+@media screen and (max-width:479px){
+.jw-button-container .jw-button-color{width:44px!important}
+.jwplayer.jw-skin-netflix .jw-icon-inline.jw-icon-playback,.jwplayer.jw-skin-netflix .jw-icon[button=download]{display:flex!important}
+}

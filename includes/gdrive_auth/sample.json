@@ -1,0 +1,7 @@
+{
+    "email": "sample@gmail.com",
+    "api_key": "api_key",
+    "client_id": "client_id.apps.googleusercontent.com",
+    "client_secret": "client_secret",
+    "refresh_token": "1//refresh_token"
+}

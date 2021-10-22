@@ -1,0 +1,84 @@
+*   Trying 172.67.10.241:443...
+* Connected to fvs.io () port 443 (#0)
+* ALPN, offering http/1.1
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-ECDSA-AES128-GCM-SHA256
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: C=US; ST=California; L=San Francisco; O=Cloudflare, Inc.; CN=sni.cloudflaressl.com
+*  start date: Jun 11 00:00:00 2021 GMT
+*  expire date: Jun 10 23:59:59 2022 GMT
+*  issuer: C=US; O=Cloudflare, Inc.; CN=Cloudflare Inc ECC CA-3
+*  SSL certificate verify ok.
+> GET /redirector?token=QzdkaGk4MkNNZUQwc2Rsdk5YSGdybi9tMEhHWm5nYitNSE9CUEhaa1J4cFYzNmtsVWxGZVM4dkkyeStHQVZycnhTNktEcGs2QTNBc29kZVE0aEswdFJkZmNCZ1ZMZHFzMkhLb3dLWFZDWExybGNmYjRyT2ZVOEY2SHV1N0s3Uks0Wkt4aUkzcFZMVGhNRXNtQjMxbHpMVklycGRiN3RpSzNLYz06bmFkdlVLRGl4TWJQT2o5OWdObmNjUT09 HTTP/1.1
+Host: fvs.io
+Range: bytes=0-418817153
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36
+Accept: */*
+Accept-Encoding: identity;q=1, *;q=0
+Accept-Language: id,id-ID;q=0.9,en;q=0.8
+Cache-Control: no-cache
+Connection: keep-alive
+Referer: https://femax20.com/v/8-z4pc8728mp0rj
+Origin: https://femax20.com
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 302 Found
+< Date: Thu, 01 Jul 2021 21:13:24 GMT
+< Content-Type: text/html; charset=UTF-8
+< Transfer-Encoding: chunked
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Location: https://www1297.ff-03.com/token=lJHVtQVW5NFsLBzsBoSH0w/1625187995/75.119.0.0/165/3/d5/8e629e43117f41b2ad037aa524366d53-480p.mp4
+< CF-Cache-Status: DYNAMIC
+< Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Server: cloudflare
+< CF-RAY: 6682a358fd86fadf-DUS
+< 
+* Ignoring the response-body
+* Closing connection 0
+* Issue another request to this URL: 'https://www1297.ff-03.com/token=lJHVtQVW5NFsLBzsBoSH0w/1625187995/75.119.0.0/165/3/d5/8e629e43117f41b2ad037aa524366d53-480p.mp4'
+*   Trying 23.19.65.166:443...
+* Connected to www1297.ff-03.com () port 443 (#1)
+* ALPN, offering http/1.1
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: CN=*.ff-03.com
+*  start date: May 24 06:44:42 2021 GMT
+*  expire date: Aug 22 06:44:42 2021 GMT
+*  issuer: C=US; O=Let's Encrypt; CN=R3
+*  SSL certificate verify ok.
+> GET /token=lJHVtQVW5NFsLBzsBoSH0w/1625187995/75.119.0.0/165/3/d5/8e629e43117f41b2ad037aa524366d53-480p.mp4 HTTP/1.1
+Host: www1297.ff-03.com
+Range: bytes=0-418817153
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36
+Accept: */*
+Accept-Encoding: identity;q=1, *;q=0
+Accept-Language: id,id-ID;q=0.9,en;q=0.8
+Cache-Control: no-cache
+Connection: keep-alive
+Referer: https://femax20.com/v/8-z4pc8728mp0rj
+Origin: https://femax20.com
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 206 Partial Content
+< Server: nginx
+< Date: Thu, 01 Jul 2021 21:13:25 GMT
+< Content-Type: video/mp4
+< Content-Length: 418817154
+< Connection: keep-alive
+< Keep-Alive: timeout=60
+< Last-Modified: Sun, 30 May 2021 23:32:19 GMT
+< ETag: "60b42083-18f6a482"
+< X-Cache-Status: HIT
+< Access-Control-Allow-Origin: *
+< Content-Range: bytes 0-418817153/418817154
+< 

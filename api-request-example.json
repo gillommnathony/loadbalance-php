@@ -1,0 +1,11 @@
+{
+    "method": "POST",
+    "url": "https://gdplayer.top/api.php?host=gdrive&id=1SJ73GGUbECKSKo0crIGjFRG8opz0lzK&ahost=youtube&aid=qGCg15vg8ls&poster=https%3A%2F%2Fgdplayer.top%2Fposter.jpg&sub=https%3A%2F%2Fgdplayer.top%2Fsubtitle.srt&lang=English",
+    "httpVersion": "HTTP/1.1",
+    "headers": [{
+            "name": "authorization",
+            "value": "Basic YWRtaW46RjFyM2I0TGw="
+        }
+    ],
+    "cookies": []
+}

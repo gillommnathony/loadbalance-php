@@ -1,0 +1,19 @@
+{
+    "name": "mantas-done/subtitles",
+    "description": "Subtitle converter and generator for PHP",
+    "type": "library",
+    "minimum-stability": "dev",
+    "autoload": {
+        "classmap": [
+            "src"
+        ]
+    },
+    "autoload-dev": {
+      "files": [
+        "./tests/helpers/AdditionalAssertions.php"
+      ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    }
+}

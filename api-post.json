@@ -1,0 +1,20 @@
+{
+    "method": "POST",
+    "url": "https://gdplayer.top/api.php",
+    "httpVersion": "HTTP/1.1",
+    "postData": {
+        "host": "gdrive",
+        "id": "1SJ73GGUbECKSKo0crIGjFRG8opz0lzK",
+        "ahost": "youtube",
+        "aid": "qGCg15vg8ls",
+        "poster": "https://gdplayer.top/poster.jpg",
+        "sub": "https://gdplayer.top/subtitle.srt",
+        "lang": "English"
+    },
+    "headers": [{
+            "name": "authorization",
+            "value": "Basic YWRtaW46RjFyM2I0TGw="
+        }
+    ],
+    "cookies": []
+}

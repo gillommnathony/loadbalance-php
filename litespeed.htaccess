@@ -1,0 +1,31 @@
+# Disable the server signature
+ServerSignature Off
+
+# Disable directory browsing
+Options All -Indexes
+
+Header set Connection keep-alive
+Header set X-XSS-Protection "1; mode=block"
+header set X-Content-Type-Options "nosniff"
+Header unset ETag
+Header always unset X-Powered-By
+Header unset X-Powered-By
+
+#cors policy
+SetEnvIf Origin "http(s)?://(www\.)?(127.0.0.1|localhost|imasdk.googleapis.com|gdplayer.top)$" AccessControlAllowOrigin=$0
+Header add Access-Control-Allow-Origin %{AccessControlAllowOrigin}e env=AccessControlAllowOrigin
+Header set Access-Control-Allow-Credentials true
+
+#show file size when downloading the video
+SetEnv no-gzip dont-vary
+
+RewriteEngine On
+
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+

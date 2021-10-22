@@ -1,0 +1,18 @@
+{
+    "require": {
+        "mobiledetect/mobiledetectlib": "^2.8",
+        "kub-at/php-simple-html-dom-parser": "^1.9",
+        "tholu/php-packer": "^0.2.0",
+        "ptcong/php-javascript-unpacker": "^1.0",
+        "phpseclib/mcrypt_compat": "^1.0",
+        "phpmailer/phpmailer": "^6.1",
+        "ua-parser/uap-php": "^3.9",
+        "phpfastcache/phpfastcache": "^8.0.4",
+        "ovidigital/js-object-to-json": "^1.0",
+        "kegi/netscape-cookie-file-handler": "^1.0",
+        "jonnyw/php-phantomjs": "^4.6"
+    },
+    "config": {
+        "platform-check": false
+    }
+}
