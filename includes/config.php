@@ -5,7 +5,7 @@ define('BASE_URL', 'https://cdbpj.herokuapp.com/');
 
 // BASE_DIR, format: string, example: '/home/user/public_html/'
 // adjust to your website directory (slash sign at the end)
-define('BASE_DIR', '/www/wwwroot/humanpx.live/');
+//define('BASE_DIR', '/www/wwwroot/humanpx.live/');
 
 // SECURE_SALT, format: string, example: 'kmzwayw1aa-12345'
 define('SECURE_SALT', 'password-123');
