@@ -1,7 +1,7 @@
 <?php
 $hostname = '51.81.174.84';
-$username = 'proxy';
-$password = 'ibrtczW8ZMK4ePKF';
+$username = 'root';
+$password = 'K35JyFaYFCYj8M4x';
 $database = 'proxy';
 
 try {
