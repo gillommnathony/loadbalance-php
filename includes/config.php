@@ -1,5 +1,5 @@
 <?php
-function getHtmlRootFolder(string $root = '/var/www/') {
+function getHtmlRootFolder(string $root = '/app/') {
 
     // -- try to use DOCUMENT_ROOT first --
     $ret = str_replace(' ', '', $_SERVER['DOCUMENT_ROOT']);
