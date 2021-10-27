@@ -16,7 +16,7 @@ class fembed
             $id = explode('?', $id);
             $this->id = $id[0];
             $this->host = parse_url($this->id, PHP_URL_HOST);
-            $this->id = strtr($this->id, ['feurl.com' => 'dutrag.com', $this->host => 'dutrag.com']);
+            $this->id = strtr($this->id, ['feurl.com' => 'diasfem.com', $this->host => 'diasfem.com']);
 
             $this->ch = curl_init();
             curl_setopt($this->ch, CURLOPT_SSL_VERIFYHOST, 0);
